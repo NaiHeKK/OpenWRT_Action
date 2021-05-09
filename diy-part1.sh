@@ -19,8 +19,6 @@
 git clone https://github.com/destan19/OpenAppFilter package/OpenAppFilter
 #KoolProxyR去广告插件
 git clone https://github.com/jefferymvp/luci-app-koolproxyR package/luci-app-koolproxyR
-#微信推送插件
-git clone https://github.com/tty228/luci-app-serverchan package/luci-app-serverchan
 #京东签到插件及其node-request依赖
 git clone https://github.com/jerrykuku/node-request  package/node-request 
 git clone https://github.com/jerrykuku/luci-app-jd-dailybonus package/luci-app-jd-dailybonus
@@ -29,8 +27,8 @@ git clone https://github.com/frainzy1477/luci-app-clash.git package/luci-app-cla
 #mentohust
 git clone https://github.com/KyleRicardo/MentoHUST-OpenWrt-ipk.git package/mentohust
 git clone https://github.com/BoringCat/luci-app-mentohust.git package/luci-app-mentohust
-git clone https://github.com/fw876/helloworld package/helloworld
-git clone https://github.com/Lienol/openwrt-package package/lienol
-git clone https://github.com/kenzok8/openwrt-packages package/kenzo
-git clone https://github.com/kenzok8/small package/small
-git clone https://github.com/CHN-beta/xmurp-ua.git package/xmurp-ua
+#git clone https://github.com/fw876/helloworld package/helloworld
+#git clone https://github.com/Lienol/openwrt-package package/lienol
+#git clone https://github.com/kenzok8/openwrt-packages package/kenzo
+#git clone https://github.com/kenzok8/small package/small
+#git clone https://github.com/CHN-beta/xmurp-ua.git package/xmurp-ua
