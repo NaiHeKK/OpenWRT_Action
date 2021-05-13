@@ -1,0 +1,311 @@
+Package: gost
+Version: 2.11.1-1
+Depends: libc
+Source: feeds/kenzo/gost
+SourceName: gost
+License: MIT
+Section: net
+Maintainer: CN_SZTL <cnsztl@immortalwrt.org>
+Architecture: mipsel_24kc
+Installed-Size: 3081111
+Filename: gost_2.11.1-1_mipsel_24kc.ipk
+Size: 3082452
+SHA256sum: 0702ead4e028d18b6865325d8bacf05be9f6e0f6029e294e58da80fd4f23908c
+Description:  A simple security tunnel written in Golang
+
+Package: luci-app-adguardhome
+Version: 15
+Depends: libc, wget-ssl
+Source: feeds/kenzo/luci-app-adguardhome
+SourceName: luci-app-adguardhome
+Section: luci
+Architecture: all
+Installed-Size: 90862
+Filename: luci-app-adguardhome_15_all.ipk
+Size: 91981
+SHA256sum: e6596e4a696e0565637ffa988771453229fa0b80e2314987fd284e4c3f1bc735
+Description:  LuCI support for adguardhome
+
+Package: luci-app-advanced
+Version: 1.8-3
+Depends: libc
+Source: feeds/kenzo/luci-app-advanced
+SourceName: luci-app-advanced
+Section: luci
+Architecture: all
+Installed-Size: 10296
+Filename: luci-app-advanced_1.8-3_all.ipk
+Size: 11010
+SHA256sum: 6d9ceb8ac023b3463375b4002e83d9b1517e20aff22ccd25189e9bedc6d69476
+Description:  LuCI Support for advanced and filebrowser
+
+Package: luci-app-aliddns
+Version: 0.3.0-1
+Depends: libc, openssl-util, curl
+Source: feeds/kenzo/luci-app-aliddns
+SourceName: luci-app-aliddns
+License: MIT
+LicenseFiles: LICENSE
+Section: luci
+Maintainer: chenhw2 <https://github.com/chenhw2/>
+Architecture: all
+Installed-Size: 3614
+Filename: luci-app-aliddns_0.3.0-1_all.ipk
+Size: 4425
+SHA256sum: bdae8f22bf9fa775ec4112d4d6c8556ddd2e92e22a0c72bfb53cd841def9a764
+Description:  LuCI Support for ALiDDNS.
+
+Package: luci-app-clash
+Version: v1.8.0
+Depends: libc, luci-base, wget, iptables, coreutils-base64, coreutils, coreutils-nohup, bash, ipset, libustream-openssl20200215, curl, jsonfilter, ca-certificates, iptables-mod-tproxy, kmod-tun
+Source: feeds/kenzo/luci-app-clash
+SourceName: luci-app-clash
+Section: luci
+Maintainer: frainzy1477
+Architecture: all
+Installed-Size: 3003331
+Filename: luci-app-clash_v1.8.0_all.ipk
+Size: 2827739
+SHA256sum: 0d0fffce22f989ae948f4fbf0f95bcb32ecdb66afd77deb96838cf102cb8fd13
+Description:  Luci Interface for clash.
+
+Package: luci-app-dnsfilter
+Version: 1.0-8
+Depends: libc, curl, dnsmasq-full, ipset
+Source: feeds/kenzo/luci-app-dnsfilter
+SourceName: luci-app-dnsfilter
+License: GPLv2
+Section: LuCI
+Maintainer: small_5 GaryPang
+Architecture: all
+Installed-Size: 9475
+Filename: luci-app-dnsfilter_1.0-8_all.ipk
+Size: 10103
+SHA256sum: f6b13a0c15d8d2d1aae1c163e3b9668e66b1c2975dd67e49781b2830c8ddcae6
+Description:  Luci Support for DNSFilter.
+
+Package: luci-app-easymesh
+Version: 1.1-1
+Depends: libc, batctl-full, kmod-batman-adv, wpad-openssl
+Source: feeds/kenzo/luci-app-easymesh
+SourceName: luci-app-easymesh
+Section: luci
+Architecture: all
+Installed-Size: 2297
+Filename: luci-app-easymesh_1.1-1_all.ipk
+Size: 3095
+SHA256sum: 56049e2153d28cff87dbaefa13429e5c1978fdde887105ec1c86fd592fd3ff45
+Description:  LuCI Support for easymesh
+
+Package: luci-app-eqos
+Version: 1.0.0-2
+Depends: libc, tc, kmod-sched-core, kmod-ifb
+Source: feeds/kenzo/luci-app-eqos
+SourceName: luci-app-eqos
+Section: luci
+Maintainer: Jianhui Zhao <jianhuizhao329@gmail.com>
+Architecture: all
+Installed-Size: 2129
+Filename: luci-app-eqos_1.0.0-2_all.ipk
+Size: 2979
+SHA256sum: 3b4bdfea64dd25833e3cf687edb817fe19aed0cdb013f7537ee45ca711bdc67c
+Description:  LuCI support for Easy QoS(Support speed limit based on IP address).
+
+Package: luci-app-gost
+Version: 1.0-1
+Depends: libc, gost
+Source: feeds/kenzo/luci-app-gost
+SourceName: luci-app-gost
+Section: luci
+Maintainer: ImmortalWrt
+Architecture: all
+Installed-Size: 1663
+Filename: luci-app-gost_1.0-1_all.ipk
+Size: 2432
+SHA256sum: 64c0d3badab86feda6ee96a6d6097d23a0da516f7a731f465b317e0387888eb8
+Description:  LuCI support for Gost
+
+Package: luci-app-openclash
+Version: 0.42.05-beta
+Depends: libc, iptables, dnsmasq-full, coreutils, coreutils-nohup, bash, curl, jsonfilter, ca-certificates, ipset, ip-full, iptables-mod-tproxy, iptables-mod-extra, libcap, ruby, ruby-yaml
+Source: feeds/kenzo/luci-app-openclash
+SourceName: luci-app-openclash
+Section: opt
+Maintainer: vernesong
+Architecture: all
+Installed-Size: 4240663
+Filename: luci-app-openclash_0.42.05-beta_all.ipk
+Size: 4071942
+SHA256sum: c1e1e14c1f588c95aaa03ab95b59fc97549ca198c78746155cbdd4f5b036ef4c
+Description:  A LuCI support for clash
+
+Package: luci-app-passwall
+Version: 4-21
+Depends: libc, libmbedtls12, iptables-mod-tproxy, ip, ipset, coreutils, coreutils-base64, coreutils-nohup, luci-lib-jsonc, curl, ca-certificates, resolveip, unzip, dnsmasq-full, tcping, libuci-lua, ipt2socks, microsocks
+Source: feeds/kenzo/luci-app-passwall
+SourceName: luci-app-passwall
+Section: opt
+Architecture: all
+Installed-Size: 867682
+Filename: luci-app-passwall_4-21_all.ipk
+Size: 867846
+SHA256sum: abff5cc96c264ae8698cdf5c798d1183ca7197d4d56f6016e3233d6d902d9300
+Description:  LuCI support for PassWall
+
+Package: luci-app-serverchan
+Version: 1.84-9
+Depends: libc, iputils-arping, curl
+Source: feeds/kenzo/luci-app-serverchan
+SourceName: luci-app-serverchan
+Section: luci
+Architecture: all
+Installed-Size: 19910
+Filename: luci-app-serverchan_1.84-9_all.ipk
+Size: 20686
+SHA256sum: 3a6e668b9a101cfd55d8f90ba69b53269af3760825064690c2e46979ce285c42
+Description:  LuCI support for serverchan
+
+Package: luci-app-smartdns
+Version: 1-3
+Depends: libc, smartdns
+Source: feeds/kenzo/luci-app-smartdns
+SourceName: luci-app-smartdns
+Section: luci
+Architecture: all
+Installed-Size: 5403
+Filename: luci-app-smartdns_1-3_all.ipk
+Size: 6129
+SHA256sum: 9a9e59929d86f5ecc0205ee55f71e66d4ca5527b060358de7be3c76379f0471f
+Description:  Luci for smartdns server
+
+Package: luci-i18n-easymesh-zh-cn
+Version: 1.1-1
+Depends: libc, luci-app-easymesh
+Source: feeds/kenzo/luci-app-easymesh
+SourceName: luci-i18n-easymesh-zh-cn
+Section: luci
+Architecture: all
+Installed-Size: 768
+Filename: luci-i18n-easymesh-zh-cn_1.1-1_all.ipk
+Size: 1577
+SHA256sum: 32b14db83e5db80db8d42a59df3b9e1997e0bd3e301c8f2ffa1eb3ffefc0145c
+Description:  Translation for luci-app-easymesh - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-eqos-zh-cn
+Version: 1.0.0-2
+Depends: libc, luci-app-eqos
+Source: feeds/kenzo/luci-app-eqos
+SourceName: luci-i18n-eqos-zh-cn
+Section: luci
+Maintainer: Jianhui Zhao <jianhuizhao329@gmail.com>
+Architecture: all
+Installed-Size: 637
+Filename: luci-i18n-eqos-zh-cn_1.0.0-2_all.ipk
+Size: 1482
+SHA256sum: 551a0ac0f8325de3a7a60cef02f03615eb27947428aaf7b3bcba346c5135ca17
+Description:  Translation for luci-app-eqos - 简体中文 (Simplified Chinese)
+
+Package: luci-i18n-smartdns-zh-cn
+Version: 1-3
+Depends: libc, luci-app-smartdns
+Source: feeds/kenzo/luci-app-smartdns
+SourceName: luci-i18n-smartdns-zh-cn
+Section: luci
+Architecture: all
+Installed-Size: 3191
+Filename: luci-i18n-smartdns-zh-cn_1-3_all.ipk
+Size: 3976
+SHA256sum: 2eaf5f8b0c38935e155a3204676b01e8c4bfd281bbe5f0a723beb2db94b8f32c
+Description:  Translation for luci-app-smartdns - 简体中文 (Simplified Chinese)
+
+Package: luci-theme-argon_new
+Version: 1.7.2-20210309
+Depends: libc
+Source: feeds/kenzo/luci-theme-argon_new
+SourceName: luci-theme-argon_new
+Section: luci
+Architecture: all
+Installed-Size: 1173776
+Filename: luci-theme-argon_new_1.7.2-20210309_all.ipk
+Size: 1174029
+SHA256sum: 92f5c321fd2a8b4d38dc3892a495f0fa255ec43f5088bb73914580361176f42a
+Description:  Argon_new kenzo
+
+Package: luci-theme-atmaterial
+Version: 1.2-02-20200209
+Depends: libc
+Source: feeds/kenzo/luci-theme-atmaterial
+SourceName: luci-theme-atmaterial
+Section: luci
+Architecture: all
+Installed-Size: 616664
+Filename: luci-theme-atmaterial_1.2-02-20200209_all.ipk
+Size: 617276
+SHA256sum: 3dd8a33eab80ef5f902b9cd39b30a04cb164194e760cc9df0a585483a82269dd
+Description:  Atmaterial new by kenzo
+
+Package: luci-theme-edge
+Version: 2.4-20201128
+Depends: libc
+Source: feeds/kenzo/luci-theme-edge
+SourceName: luci-theme-edge
+Section: luci
+Architecture: all
+Installed-Size: 198025
+Filename: luci-theme-edge_2.4-20201128_all.ipk
+Size: 199048
+SHA256sum: 02783347fd9fd189a101a091a5522865d3f2008efc9a18705f73917af7b39488
+Description:  Edge_new kenzo
+
+Package: luci-theme-ifit
+Version: 20200706-0
+Depends: libc
+Source: feeds/kenzo/luci-theme-ifit
+SourceName: luci-theme-ifit
+Section: luci
+Architecture: all
+Installed-Size: 2119589
+Filename: luci-theme-ifit_20200706-0_all.ipk
+Size: 2120484
+SHA256sum: c25219a198bce26479e863bc3c256a94b16de872879aba99b718c4222fc8afbb
+Description:  Infinity Freedom Theme
+
+Package: luci-theme-opentomato
+Version: git-21.132.40597-0fa822c-1
+Depends: libc
+Source: feeds/kenzo/luci-theme-opentomato
+SourceName: luci-theme-opentomato
+Section: luci
+Architecture: all
+Installed-Size: 211913
+Filename: luci-theme-opentomato_git-21.132.40597-0fa822c-1_all.ipk
+Size: 212741
+SHA256sum: 613938acc55f9bc1016ac34539200ac7f3a2d4abcf3bd003d676f66b355f0d86
+Description:  OpenTomato new kenzo
+
+Package: luci-theme-opentomcat
+Version: 0.2.50-1
+Depends: libc
+Source: feeds/kenzo/luci-theme-opentomcat
+SourceName: luci-theme-opentomcat
+Section: luci
+Architecture: all
+Installed-Size: 208470
+Filename: luci-theme-opentomcat_0.2.50-1_all.ipk
+Size: 209303
+SHA256sum: 7ebb8db7f09be9ab196cb2451dfed8c9ca06e18d94e99bbe93078e973dcf5177
+Description:  Tomato new kenzo
+
+Package: luci-theme-opentopd
+Version: 1.2.4-20201115
+Depends: libc
+Source: feeds/kenzo/luci-theme-opentopd
+SourceName: luci-theme-opentopd
+Section: luci
+Architecture: all
+Installed-Size: 2947778
+Filename: luci-theme-opentopd_1.2.4-20201115_all.ipk
+Size: 2949015
+SHA256sum: 885cd83435f683215714407093dac77079a993a5e067d164ecfda38672157184
+Description:  LuCI luci-theme-opentopd theme
+

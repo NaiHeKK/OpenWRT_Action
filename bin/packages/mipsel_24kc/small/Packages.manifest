@@ -1,0 +1,15 @@
+Package: trojan-plus
+Version: 10.0.3-2
+Depends: libc, libpthread, libstdcpp6, libopenssl1.1, boost, boost-system, boost-program_options
+Source: feeds/small/trojan-plus
+SourceName: trojan-plus
+License: GPL-3.0
+Section: net
+Maintainer: Trojan-Plus-Group
+Architecture: mipsel_24kc
+Installed-Size: 353239
+Filename: trojan-plus_10.0.3-2_mipsel_24kc.ipk
+Size: 353893
+SHA256sum: 5a4bc1ac02c996c1fd7435b36022313a66441c274390456f4010ea2be6bbe856
+Description:  An unidentifiable mechanism that helps you bypass GFW. It's compatible with original trojan with experimental features.
+

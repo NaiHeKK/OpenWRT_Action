@@ -1,0 +1,69 @@
+Package: luci-app-ssr-plus
+Version: 184-3
+Depends: libc, coreutils, coreutils-base64, dns2socks, dnsmasq-full, ipset, ip-full, iptables-mod-tproxy, lua, libuci-lua, microsocks, pdnsd-alt, tcping, resolveip, shadowsocksr-libev-ssr-check, wget-ssl, shadowsocks-libev-ss-local, shadowsocks-libev-ss-redir, shadowsocksr-libev-ssr-local, shadowsocksr-libev-ssr-redir, simple-obfs, trojan, ipt2socks
+Section: luci
+Architecture: all
+Installed-Size: 192482
+Filename: luci-app-ssr-plus_184-3_all.ipk
+Size: 192617
+SHA256sum: 62a49ade8a949239c5471ca8fe7664e5f177c3587f3094ffdb51d2de4eb2e18e
+Description:  SS/SSR/V2Ray/Trojan/NaiveProxy/Socks5/Tun LuCI interface
+
+Package: luci-i18n-ssr-plus-zh-cn
+Version: 184-3
+Depends: libc, luci-app-ssr-plus
+Section: luci
+Architecture: all
+Installed-Size: 6415
+Filename: luci-i18n-ssr-plus-zh-cn_184-3_all.ipk
+Size: 7257
+SHA256sum: 1318e63e8f6add31ac47292f2e07acaa1b1ce8fb0be39c76cb10ba89b501cc98
+Description:  Translation for luci-app-ssr-plus - 简体中文 (Simplified Chinese)
+
+Package: shadowsocksr-libev-ssr-check
+Version: 2.5.6-8
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+License: GPL-3.0
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 2409
+Filename: shadowsocksr-libev-ssr-check_2.5.6-8_mipsel_24kc.ipk
+Size: 3135
+SHA256sum: d068ae9797091a7eaf3ba817c16d0ef12e8224d032b843697c4e04f61a2b5827
+Description:  shadowsocksr-libev ssr-check
+
+Package: shadowsocksr-libev-ssr-local
+Version: 2.5.6-8
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+License: GPL-3.0
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 57105
+Filename: shadowsocksr-libev-ssr-local_2.5.6-8_mipsel_24kc.ipk
+Size: 57714
+SHA256sum: 27e8594c29dc3ddd226608fc785c849a903ec5e95ad0e1828d0aa8b43c8ab580
+Description:  shadowsocksr-libev ssr-local
+
+Package: shadowsocksr-libev-ssr-redir
+Version: 2.5.6-8
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+License: GPL-3.0
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 50654
+Filename: shadowsocksr-libev-ssr-redir_2.5.6-8_mipsel_24kc.ipk
+Size: 51365
+SHA256sum: 1d700922ee9c05a3b71c849d2045fae3e28a05b75853f9659605e927ce93cab3
+Description:  shadowsocksr-libev ssr-redir
+
+Package: tcping
+Version: 0.3-1
+Depends: libc
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 3408
+Filename: tcping_0.3-1_mipsel_24kc.ipk
+Size: 4087
+SHA256sum: 96964d142b3d6fdff68ca320ee601407c075121dd81351f038623c8ebe1b338b
+Description:  tcping measures the latency of a tcp-connection
+
