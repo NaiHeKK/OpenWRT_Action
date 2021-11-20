@@ -29,11 +29,11 @@ env:
   CONFIG_FILE: config/.config
   DIY_P1_SH: diy-part1.sh
   DIY_P2_SH: diy-part2.sh
-  SSH_ACTIONS: flase
+  SSH_ACTIONS: false
   UPLOAD_BIN_DIR: true
   UPLOAD_FIRMWARE: true
-  UPLOAD_GITHUB: flase
-  UPLOAD_GITEE: flase
+  UPLOAD_GITHUB: false
+  UPLOAD_GITEE: false
   TZ: Asia/Shanghai
 
 jobs:
